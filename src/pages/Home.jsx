@@ -13,9 +13,9 @@ export default function Home() {
     fetchJSON('/api/properties?featured=true')
       .then(setFeatured)
       .catch(() => setFeatured([
-        { title: 'Aurum Heights', location: 'Downtown', price: 850000, images: [] },
-        { title: 'Ivory Residences', location: 'Riverside', price: 620000, images: [] },
-        { title: 'Opus Commercial', location: 'Business Bay', price: undefined, images: [] },
+        { title: 'Casagrand Heights', location: 'Downtown', price: 850000, images: [] },
+        { title: 'Casagrand Ivory', location: 'Riverside', price: 620000, images: [] },
+        { title: 'Casagrand Opus', location: 'Business Bay', price: undefined, images: [] },
       ]))
   }, [])
 
@@ -26,7 +26,7 @@ export default function Home() {
       <Carousel items={featured} />
       <Amenities />
       <Reviews />
-      <footer className="bg-[#F7F3EC] border-t border-[#E6DED0] py-10 text-center text-sm text-[#7A6A50]">© {new Date().getFullYear()} Aurum Estates. All rights reserved.</footer>
+      <footer className="bg-[#F7F3EC] border-t border-[#E6DED0] py-10 text-center text-sm text-[#7A6A50]">© {new Date().getFullYear()} casagrand. All rights reserved.</footer>
     </div>
   )
 }

@@ -6,7 +6,7 @@ export default function About() {
       <Navbar />
       <section className="pt-24 pb-12 bg-gradient-to-b from-white via-[#F7F3EC] to-white">
         <div className="mx-auto max-w-5xl px-4">
-          <h1 className="text-4xl font-semibold">About Aurum Estates</h1>
+          <h1 className="text-4xl font-semibold">About casagrand</h1>
           <p className="mt-4 text-[#7A6A50]">We craft enduring spaces that balance aesthetics and utility. Our philosophy blends sustainable design, timeless materials, and meticulous execution.</p>
         </div>
       </section>
